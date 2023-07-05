@@ -1,0 +1,31 @@
+@import url(/css/2xl/2xl.css) screen and (min-width: 1400px);
+@import url(/css/xl/xl.css) screen and (min-width: 1200px) and (max-width: 1400px);
+@import url(/css/lg/lg.css) screen and (min-width: 992px) and (max-width: 1200px);
+@import url(/css/md/md.css) screen and (min-width: 768px) and (max-width: 992px);
+@import url(/css/sm/sm.css) screen and (min-width: 576px) and (max-width: 768px);
+@import url(/css/xs/xs.css) screen and (max-width: 576px);
+@import url(/css/setting/setting.css);
+@import url(/css/menubar.css);
+@import url(/css/newproduct.css);
+@import url(/css/bestoffers.css);
+@import url(/css/newoffer.css);
+@import url(/css/lavelup.css);
+@import url(/css/beauty.css);
+@import url(/css/different.css);
+@import url(/css/top-brands.css);
+@import url(/css/videos.css);
+@import url(/css/standards.css);
+@import url(/css/footer.css);
+.container {
+  max-width: 1346px !important; }
+
+div.bascket {
+  bottom: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  right: 10px;
+  z-index: 1; }
+  div.bascket button {
+    height: 45px;
+    width: 45px; }

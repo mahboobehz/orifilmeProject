@@ -1,0 +1,14 @@
+.menubar {
+	min-height: 80px;
+	div.item {
+		font-size: 13px;
+		font-family: OriflameSans20-Bold;
+		a {
+			text-decoration: none;
+			color: rgb(90, 90, 90);
+			&:hover {
+				color: rgb(152, 152, 152);
+			}
+		}
+	}
+}

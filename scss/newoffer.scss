@@ -1,0 +1,127 @@
+div.main-new-offer {
+
+	min-height: 435px;
+	contain: layout;
+	scrollbar-width: thin;
+	scrollbar-color: rgb(204, 204, 204) transparent;
+
+	section.main-section {
+		-moz-box-align: center;
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 100px;
+		width: 100%;
+
+		div.content {
+			display: flex;
+			-moz-box-pack: center;
+			justify-content: center;
+			max-width: 1346px;
+			position: relative;
+			width: 100%;
+
+			div.image-content {
+				display: flex;
+				overflow: hidden;
+				position: relative;
+
+				img {
+					object-fit: cover;
+					width: 100%;
+				}
+
+				.text-on-image {
+					margin: 0px 0px 40px;
+					font-size: 30px;
+					font-weight: bold;
+					line-height: 1.235;
+					color: rgb(255, 255, 255);
+					align-self: flex-end;
+					font-family: SansCondensedOri, SansCondensedOriFallback, SansOri, SansOriFallback, sans-serif;
+					position: absolute;
+					text-align: center;
+					text-transform: uppercase;
+					width: 100%;
+				}
+			}
+
+			div.text-content {
+				place-content: center;
+				background: rgb(245, 245, 245) none repeat scroll 0% 0%;
+				color: rgb(51, 51, 51);
+				display: flex;
+				flex: 1 1 0%;
+				flex-direction: column;
+				-moz-box-pack: center;
+				padding: 0px 80px;
+				text-align: left;
+
+				h2.title {
+					margin: 0px 0px 20px;
+					font-size: 40px;
+					font-weight: bold;
+					font-family: SansOri, SansOriFallback, sans-serif;
+					line-height: 1.35;
+				}
+
+				p.details {
+					margin: 0px;
+					font-size: 14px;
+					font-weight: normal;
+					font-family: SansOri, SansOriFallback, sans-serif;
+					line-height: 1.5;
+				}
+
+				div.check-offers {
+					justify-self: start;
+					margin-top: 30px;
+
+					a {
+						display: inline-flex;
+						-moz-box-align: center;
+						align-items: center;
+						-moz-box-pack: center;
+						justify-content: center;
+						position: relative;
+						box-sizing: border-box;
+						background-color: transparent;
+						outline: currentcolor none 0px;
+						margin: 0px;
+						cursor: pointer;
+						user-select: none;
+						vertical-align: middle;
+						appearance: none;
+						text-decoration: none;
+						font-size: 14px;
+						font-weight: bold;
+						font-family: SansOri, SansOriFallback, sans-serif;
+						min-width: 64px;
+						transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+						box-shadow: none;
+						color: rgb(51, 51, 51);
+						border: 1px solid rgb(51, 51, 51);
+						border-radius: 25px;
+						line-height: 1.35;
+						padding: 12px 23px;
+						height: 45px;
+						text-transform: uppercase;
+					}
+				}
+			}
+
+			div.background {
+				background: rgba(178, 175, 239, 0.2) none no-repeat scroll 0% 0%;
+				border-radius: 258px;
+				height: 478px;
+				left: -60px;
+				position: absolute;
+				top: 21%;
+				transform: translateX(-50%);
+				width: 478px;
+				z-index: -1;
+			}
+		}
+	}
+}

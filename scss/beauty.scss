@@ -1,0 +1,121 @@
+div.main-beauty {
+	min-height: 875px;
+	contain: layout;
+
+	div.main-div {
+		-moz-box-align: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		margin-block-end: 100px;
+
+		p {
+			margin: 20px 0px 30px;
+			font-size: 14px;
+			font-weight: normal;
+			font-family: SansOri, SansOriFallback, sans-serif;
+			line-height: 1.5;
+			max-width: 600px;
+			min-height: 45px;
+			text-align: center;
+		}
+
+		div.div-picturs {
+			display: flex;
+			flex-wrap: wrap;
+			-moz-box-pack: center;
+			justify-content: center;
+			gap: 30px;
+
+			a {
+				margin: 0px;
+				font-size: 14px;
+				font-weight: normal;
+				font-family: SansOri, SansOriFallback, sans-serif;
+				line-height: 1.5;
+				color: rgb(51, 51, 51);
+				max-width: 600px;
+				text-decoration: none;
+
+				div {
+					display: flex;
+					flex-direction: column;
+					position: relative;
+					text-align: center;
+
+					div.div-picture {
+						overflow: hidden;
+						position: relative;
+						max-width: 600px;
+
+						picture {
+							img {
+								border-radius: 5px;
+								height: 100%;
+								width: 100%;
+							}
+						}
+					}
+
+					div.text-info {
+						width: 100%;
+
+						div.title {
+							color: rgb(51, 51, 51);
+							font-size: 14px;
+							font-weight: 700;
+							margin-top: 20px;
+							text-transform: uppercase;
+						}
+
+						div.details {
+							height: 90px;
+							-moz-box-orient: vertical;
+							color: rgb(85, 85, 85);
+							display: -webkit-box;
+							font-size: 30px;
+							font-weight: 700;
+							margin-bottom: 15px;
+							margin-top: 20px;
+							overflow: hidden;
+							padding: 0px 15px;
+							text-overflow: ellipsis;
+						}
+
+						button {
+							display: inline-flex;
+							-moz-box-align: center;
+							align-items: center;
+							-moz-box-pack: center;
+							justify-content: center;
+							position: relative;
+							box-sizing: border-box;
+							background-color: transparent;
+							outline: currentcolor none 0px;
+							margin: 10px 0px 0px;
+							cursor: pointer;
+							user-select: none;
+							vertical-align: middle;
+							appearance: none;
+							text-decoration: none;
+							font-weight: bold;
+							font-family: SansOri, SansOriFallback, sans-serif;
+							text-transform: uppercase;
+							min-width: 64px;
+							transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+							box-shadow: none;
+							border: 1px solid rgb(51, 51, 51);
+							line-height: 1.35;
+							padding: 12px 23px;
+							align-self: center;
+							border-radius: 24px;
+							color: rgb(51, 51, 51);
+							font-size: 14px;
+							height: 45px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
